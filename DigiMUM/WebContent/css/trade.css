@@ -1,0 +1,256 @@
+@CHARSET "ISO-8859-1";
+
+#wrapper { /*opacity:0.7;*/
+	/*background-color:black;*/
+	width: 1000px;
+	align: center;
+	margin: 0 auto;
+	height: auto;
+}
+
+#header {
+	float: left;
+	width: 1000px;
+	height: 103px;
+	/*background-color: transparent;*/
+	/* padding-left: 10px; */
+	/*opacity:0.5;*/
+}
+
+#pop {
+	position: absolute;
+	font-family: Cambria;
+	font-size: 16px;
+	margin-left: 780px;
+	top: 14px;
+	opacity: 0.8;
+}
+
+body {
+	background-image: url('../images/globalmarket.jpg');
+	background-color: #000000;
+	align: center;
+	background-size: cover;
+}
+
+div.logo {
+	display: inline-block;
+	position: absolute;
+	width: 200px; /*width of your image*/
+	height: 100px; /*height of your image*/
+	background-image: url('../images/final.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 5px;
+	margin-left: 5px; /* If you want no margin */
+	padding: 0; /*if your want to padding */
+	/*box-sizing:border-box;*/
+}
+
+/* img.decor {background-color:#CCCCCC;} */
+div.logout {
+	display: inline-block;
+	position: relative;
+	z-index: 10000;
+	width: 25px; /*width of your image*/
+	height: 25px; /*height of your image*/
+	background-image: url('../images/logout.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 5px;
+	margin-left: 755px;
+	padding: 0;
+	float: right;
+}
+
+div.logout a {
+	width: 35px; /*width of your image*/
+	height: 35px; /*height of your image*/
+	display: block;
+}
+
+#mainbody {
+	display: inline-block;
+	position: absolute;
+	/* margin:100px 0px 0px 0px; */
+	/* padding-top:55px; */
+	top: 157px;
+	left: 175px;
+	width: 1000px;
+	heigth: 800px;
+	background-color: black;
+	opacity: 0.8;
+}
+
+#rcorners {
+	float: left;
+	/* height:49px; */
+	top: 111px;
+	left: 182px;
+	width: 976px;
+	height: 44px;
+	/* 	background-image:url('../images/topbutton_select.jpg'); */
+	background-color: black;
+	font-family: Cambria;
+	display: block;
+	opacity: 0.9;
+	/*padding-right: 24px;*/
+	padding-left: 24px;
+	line-height: 43px;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+/* #rcorners ul li.norm {
+	float: left;
+	opacity: 0.6;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#rcorners ul li.select {
+	float: left;
+	opacity: 0.9;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	margin-left: 0px;
+	margin-right: 0px;
+} */
+/* #stop_spin {
+	width: 120px;
+	heigth:44px;
+}
+
+#limit_spin {
+	width: 120px;
+	heigth:44px;
+}
+
+#stake_spin {
+	width: 120px;
+	heigth:44px;
+} */
+
+#mainbody [type=number], select {
+	width: 30%;
+	padding: 8px 10px;
+	background-color: #e6e6e6;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-sizing: border-box;
+	margin-top: -2px;
+	margin-bottom: 5px;
+	align: right;
+}
+
+#title {
+	font-size: 17px;
+/* 	padding-left: 10px; */
+	padding-top: -2px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-family: Cambria;
+	color: #FFFFFF;
+}
+
+tr {
+	top: 10px;
+}
+
+#button1 {
+	cursor: pointer;
+	border: 1px solid black;
+	padding: 5px 25px;
+	width: 140px;
+	height: 30px;
+	text-align: center;
+	color: white;
+	font-style: bold;
+	font-size: 18px;
+	background-color: red;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	text-shadow: 2px 3px 4px #0000FF;
+	box-shadow: 2px 3px 4px #FFFFF0;
+}
+
+#text1 {
+	border: 1px solid black;
+	padding: 0;
+	width: 138px;
+	height: 30px;
+	text-align: center;
+	font-style: bold;
+	font-size: 14px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	box-shadow: 2px 3px 4px #FFFFF0;
+}
+
+th, #stop {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: Cambria;
+	align: center;
+}
+
+#margin {
+	color: #FFFFFF;
+	font-size: 17px;
+	font-family: Cambria;
+	/*align: center;*/
+	padding-left: 150px;
+}
+
+/* #backbutton {
+	padding-left: 24px;
+	height: 30px;
+	width: 90px;
+	cursor: pointer;
+	border: 1px solid black;
+	padding: 5px 25px;
+	font-style: bold;
+	font-size: 14px;
+	border-radius: 6px;
+} */
+
+#loginb {
+	border-radius: 10px;
+	background: #333333;
+	text-align: center;
+	postion: inline;
+	padding: 4px 12px 4px 12px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	border: 0px solid black;
+	box-shadow: 5px 5px 2px black;
+	color: white;
+	margin-left: 0%;
+	font-family: Cambria;
+	font-weigth: bold;
+	font-size: 16px;
+}
+
+#footer {
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	font-family: Trebuchet SC;
+	font-size: 12px;
+	color: #FFFFFF;
+	top: 747px;
+	left: 175px;
+	opacity: 0.8;
+	background-color: black;
+	width: 1000px;
+	heigth: 103px;
+}
+
+/* #stop{
+	color: #FFFFFF;
+} */
